@@ -7,16 +7,16 @@ def calculate(X):
     X = [S0, I0, R0, V0, beta, gamma, nu, iota, l, timesteps]
     """
     # Initial Values
-    Ss = [X[0]]
+    Ss = [X[0]] 
     Is = [X[1]]
     Rs = [X[2]]
     Vs = [X[3]]
     # Constants
-    beta = X[4]
-    gamma = X[5]
-    nu = X[6]
-    iota = X[7]
-    l = X[8]
+    beta = X[4] # Rate of infection
+    gamma = X[5] # Rate of recovery
+    nu = X[6] # Rate of vaccination
+    iota = X[7] # Rate of infection for a vaccinated individual
+    l = X[8] # Rate of vaccine-immunity loss
 
     timesteps = X[9]
 
