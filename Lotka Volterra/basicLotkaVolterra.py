@@ -1,3 +1,5 @@
+
+
 import matplotlib.pyplot as plt
 
 import numpy as np
@@ -179,6 +181,7 @@ def main(odes = True, LM = True, allLM = True):
     if LM is True and allLM is True:
         logisticMap(1, 4, 1000, .5, 200)
     
+
 
 
 
